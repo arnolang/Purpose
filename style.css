@@ -94,3 +94,57 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.btn-link {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image-break img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.testimonial-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.testimonial-slide {
+  display: none;
+}
+
+.testimonial-slide.active {
+  display: block;
+}
